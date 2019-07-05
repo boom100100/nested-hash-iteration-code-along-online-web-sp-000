@@ -18,5 +18,12 @@ def remove_strawberry(contacts)
   #contacts["Freddy Mercury"][:favorite_ice_cream_flavors].shift
   #contacts
 
-  
+  contacts.each {|key, value|
+    if person == "Freddy Mercury"
+      contact_details_hash.each { |key, value|
+        if attribute == :favorite_ice_cream_flavors
+        end
+      }
+    end
+  }
 end
